@@ -1,3 +1,6 @@
 [submodule "app"]
 	path = app
 	url = https://github.com/wenpay-team/app
+[submodule "contracts"]
+	path = contracts
+	url = https://github.com/wenpay-team/contracts.git
