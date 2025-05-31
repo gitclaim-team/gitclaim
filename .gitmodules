@@ -4,3 +4,6 @@
 [submodule "contracts"]
 	path = contracts
 	url = https://github.com/cha-ching-team/contracts.git
+[submodule "envio-indexer"]
+	path = envio-indexer
+	url = https://github.com/cha-ching-team/envio-indexer
