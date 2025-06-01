@@ -7,3 +7,6 @@
 [submodule "backend"]
 	path = backend
 	url = https://github.com/cha-ching-team/backend
+[submodule "envio-indexer"]
+	path = envio-indexer
+	url = https://github.com/cha-ching-team/envio-indexer
