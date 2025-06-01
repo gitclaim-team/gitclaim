@@ -1,9 +1,17 @@
 <div align="center">
-  <img src="./cha-ching-logo-green.png" alt="Cha-Ching Logo" width="300"/>
+  <img src="./assets/cha-ching-logo-green.png" alt="Cha-Ching Logo" width="300"/>
   <h1>⚡️ Cha-Ching Monorepo 🚀</h1>
 </div>
 
-Welcome to **Cha-Ching**, the ultimate hackathon project for onchain bounty payments, automated GitHub workflows, and next-gen web experiences – all deployed at **[cha-ching.it](https://cha-ching.it)**!
+Welcome to **Cha-Ching**, your all-in-one solution for on-chain bounty payouts, AI-powered GitHub workflow automation, and futuristic web coordination - live at **[cha-ching.it](https://cha-ching.it)**!
+
+Here’s how Cha-Ching **supercharges open-source collaboration:**
+	1.	🪙 Create & fund a bounty tied to a GitHub issue.
+	2.	🤖 Cha-Ching AI Bot recommends bounties to developers based on their skills.
+	3.	🔧 Developers submit PRs to fix issues and claim bounties.
+	4.	✅ Once merged, the Cha-Ching GitHub App releases funds onchain using a [vlayer WebProof](https://book.vlayer.xyz/features/web.html).
+
+<em>No middlemen. No spreadsheets. Just seamless, verifiable rewards for real contributions.</em>
 
 ---
 
