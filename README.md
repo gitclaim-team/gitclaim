@@ -21,8 +21,8 @@ Here’s how Cha-Ching **supercharges open-source collaboration:**
 /cha-ching
   /app           # Next.js 15 app (NextAuth.js)
   /backend       # Node.js API server (Nest.js)
-  /bot           # GitHub bot (Custom workflow engine)
-  /contracts     # Solidity smart contracts (Hardhat3)
+  /envio-indexer # Blockchain indexer (Envio HyperIndexer)
+  /contracts     # Solidity smart contracts (Foundry)
 ```
 
 ---
