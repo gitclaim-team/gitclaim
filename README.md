@@ -1,4 +1,7 @@
-# ⚡️ Cha-Ching Monorepo 🚀
+<div align="center">
+  <img src="./cha-ching-logo-green.png" alt="Cha-Ching Logo" width="300"/>
+  <h1>⚡️ Cha-Ching Monorepo 🚀</h1>
+</div>
 
 Welcome to **Cha-Ching**, the ultimate hackathon project for onchain bounty payments, automated GitHub workflows, and next-gen web experiences – all deployed at **[cha-ching.it](https://cha-ching.it)**!
 
