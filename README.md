@@ -1,15 +1,15 @@
 <div align="center">
-  <img src="./assets/cha-ching-logo-green.png" alt="Cha-Ching Logo" width="300"/>
-  <h1>⚡️ Cha-Ching Monorepo 🚀</h1>
+  <img src="./assets/gitclaim-logo.png" alt="GitClaim Logo" width="300"/>
+  <h1>⚡️ GitClaim Monorepo 🚀</h1>
 </div>
 
-Welcome to **Cha-Ching**, your all-in-one solution for on-chain bounty payouts, AI-powered GitHub workflow automation, and futuristic web coordination - live at **[cha-ching.it](https://cha-ching.it)**!
+Welcome to **GitClaim**, your all-in-one solution for on-chain bounty payouts, AI-powered GitHub workflow automation, and futuristic web coordination - live at **[https://gitclaim.axlabs.com](https://gitclaim.axlabs.com)**!
 
-Here’s how Cha-Ching **supercharges open-source collaboration:**
+Here’s how GitClaim **supercharges open-source collaboration:**
 1. 🪙 Create & fund a bounty tied to a GitHub issue.
-2. 🤖 Cha-Ching AI Bot recommends bounties to developers based on their skills.
+2. 🤖 GitClaim AI Agent recommends bounties to developers based on their skills.
 3. 🔧 Developers submit PRs to fix issues and claim bounties.
-4. ✅ Once merged, the Cha-Ching GitHub App releases funds onchain using a [vlayer WebProof](https://book.vlayer.xyz/features/web.html).
+4. ✅ Once merged, the GitClaim GitHub App releases funds onchain using a [vlayer WebProof](https://book.vlayer.xyz/features/web.html).
 
 <em>No middlemen. No spreadsheets. Just seamless, verifiable rewards for real contributions.</em>
 
@@ -18,7 +18,7 @@ Here’s how Cha-Ching **supercharges open-source collaboration:**
 ## 🗂️ Monorepo Structure
 
 ```bash
-/cha-ching
+/gitclaim
   /app           # Next.js 15 app (NextAuth.js)
   /backend       # Node.js API server (Nest.js)
   /contracts     # Solidity smart contracts (Foundry)
@@ -33,96 +33,18 @@ Here’s how Cha-Ching **supercharges open-source collaboration:**
 ✅ **NextAuth.js** – GitHub OAuth authentication <br>
 ✅ **shadcn-ui** – Beautiful components (dark mode by default!) <br>
 ✅ **Hardhat/Foundry** – Ethereum smart contract toolkit <br>
-✅ **Node.js** – Backend API server <br>
+✅ **Node.js** – Backend API server (NestJS) <br>
 ✅ **Probot** – GitHub bot for automations <br>
 ✅ **pnpm workspaces** – Monorepo dependency management <br>
 
 ---
 
-## 🚀 Quick Start
-
-### 1️⃣ Install dependencies
-
-```bash
-pnpm install
-```
-
-### 2️⃣ Environment Variables
-
-Each package has its own `.env`:
-
-```bash
-/app/.env.local
-/backend/.env
-/bot/.env
-```
-
-Example for the frontend (`.env.local`):
-
-```env
-NEXTAUTH_SECRET=your_random_secret
-NEXTAUTH_URL=https://cha-ching.it
-GITHUB_ID=your_github_client_id
-GITHUB_SECRET=your_github_client_secret
-```
-
-### 3️⃣ Local Development
-
-Spin up the entire monorepo stack:
-
-```bash
-pnpm dev
-```
-
-This will:
-✅ Start the Next.js frontend
-✅ Run the backend API server
-✅ Deploy contracts to local blockchain (Hardhat node)
-✅ Start the GitHub bot
-
-### 4️⃣ Smart Contracts
-
-```bash
-cd apps/contracts
-pnpm build     # Compile contracts
-pnpm test      # Run tests
-```
-
-### 5️⃣ GitHub Bot
-
-The bot runs with **Probot**. To start it locally:
-
-```bash
-cd apps/bot
-pnpm dev
-```
-
----
-
 ## 🌍 Live Demo
 
-👉 Visit: **[https://cha-ching.it](https://cha-ching.it)**
-👉 Sign in with GitHub (NextAuth.js)
+👉 Visit: **[https://gitclaim.axlabs.com](https://gitclaim.axlabs.com)**
+👉 Sign in with GitHub
 👉 Experience the hacker-ready dark mode!
 
----
-
-## 🌟 Features
-
-✅ **GitHub OAuth** – Sign in with your GitHub account <br>
-✅ **Dark Mode Default** – Smooth hacker aesthetic 🌒 <br>
-✅ **Onchain Smart Contracts** – Deploy and manage bounties <br>
-✅ **GitHub Bot** – Automate bounty payouts and workflows <br>
-✅ **Shared Monorepo** – Everything in one place, ready to hack! <br>
-
----
-
-## 🛠️ Extending It
-
-- Deploy to Vercel for production
-- Add Prisma or other DB to persist data
-- Integrate custom GitHub webhooks
-- Expand bot to handle issue labeling, bounty verification, and more!
 
 ---
 
@@ -138,4 +60,4 @@ Open an issue or PR – let’s build together!
 
 ---
 
-> Let’s make onchain bounties effortless, automated, and beautiful with **Cha-Ching**! 💸✨
+> Let’s make onchain bounties effortless, automated, and beautiful with **GitClaim**! 💸✨
